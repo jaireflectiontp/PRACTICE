@@ -1,0 +1,21 @@
+@import './mixin';
+
+header{ 
+    padding: 20px 0;
+    background: rgb(0,0,0);
+    background: linear-gradient(90deg, rgba(0,0,0,1) 20%, rgba(0,9,164,1) 100%);
+}
+.innerHeader{
+@include max-width;
+display: flex;
+justify-content: space-between;
+color: white;
+font-weight: 700;
+}
+.nav-list{
+    @include list;
+}
+.nav-link{
+    display: inline-block;
+    padding: 0 10px;
+}

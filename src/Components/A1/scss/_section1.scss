@@ -1,0 +1,56 @@
+@import '../scss/mixin';
+
+.section1 {
+    height: 1000px;
+    overflow: hidden;
+    position: relative;
+}
+
+.banner1_img {
+    width: 100%;
+}
+
+.intro {
+    position: absolute;
+    top: 250px;
+    left: 70px;
+    max-width: 1360px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.titleBox,
+.itemBox {
+    width: 660px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sec1_title{
+    margin-top: 261px;
+    font-size: 90px;
+    color: aliceblue;
+}
+.itemBox_row1, .itemBox_row2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.items{
+    width: 300px;
+    height: 250px;
+    border-radius: 15px;
+    background-color: rgb(198, 255, 247);
+}
+.item_innner{
+    padding: 70px;
+    text-align: center;
+}
+.item-type{
+    padding: 30px;
+}
+.icon{
+    font-size: 30px;
+}
