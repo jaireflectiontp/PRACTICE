@@ -1,0 +1,52 @@
+.welcome_window {
+    background-image: url(../../Images/background.jpg);
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    display: grid;
+    place-items: center;
+    background-color: #333;
+}
+
+.welcome_box {
+    width: 800px;
+    height: 500px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color:#08fdd8;
+    font-family: monospace;
+}
+
+.start_btn {
+    position: absolute;
+    bottom: 130px;
+    left: 24%;
+    background-color:transparent;
+    padding: 14px 65px;
+    font-size: 35px;
+    font-weight: 800;
+    cursor: pointer;
+    transition: ease-out 0.3s;
+    color: white;
+    box-shadow: 0 0 0 0 #08fdd8 inset ;
+    border-radius: 70px;
+}
+.start_btn:hover {
+    box-shadow: 480px 0 0 0 #08fdd873 inset;
+    color: black;
+}
+.profileBox {
+    width: 360px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 0px 0 10px 0;
+cursor: pointer;
+    img {
+        width: 100%;
+        border-radius: 100%;
+    }
+}
+
+

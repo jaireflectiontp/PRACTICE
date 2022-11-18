@@ -1,0 +1,102 @@
+.contact_page{
+   color: white;
+   position: fixed;
+   border: 3px solid #0e1019;
+   width: 1200px;
+   height: 675px;
+   left: 245px;
+   margin: 20px;
+}
+.contact_page_in{
+    width: 100%;
+    h1{
+        padding: 0 0 0 230px;
+       }
+}
+.contactBox{
+    display: flex;
+}
+.contact_col{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 185px;
+}
+
+.detail_box{
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+.detail_icon{
+    font-size: 40px;
+    margin-right: 40px;
+}
+.social_contact{
+    margin-top: 20px;
+    h4{
+        text-align: center;
+    }
+}
+.socialLinks{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px 0;
+    font-size: 25px;
+    a{
+        text-decoration: none;
+        color:white
+    }
+}
+.socialLinks a:hover{
+color: aqua;
+}
+.msg_col{
+    width: 50vw;
+    padding: 15px 0;
+    h3{
+        margin-bottom: 30px;
+    }
+}
+.inpt{
+    margin: 20px 0;
+    input{
+        width: 350px;
+        padding: 6px;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid white;
+        background: none;
+        color: white;
+        
+    }
+}
+input::placeholder{
+    color: aqua;
+}
+input:hover{
+    border-bottom: 2px solid aqua;
+}
+.msgBox{
+    height: 60px;
+    margin-top: 10px;
+    padding: 15px 6px !important;
+}
+.msg_col button {
+    border-radius: 12px;
+    padding: 5px 15px;
+    margin: 10px 15px;
+    font-weight: 700;
+    background: black;
+    color:#08fdd8;
+    border: 1px solid white;
+    box-shadow: 3px 3px 3px 1px #08fdd8;
+    font-family: monospace;
+}
+button:hover {
+    background: white;
+    color: black;
+    transform: scale(1.3);
+    box-shadow: 3px 3px 3px 1px rgba(215, 215, 215, 0.633);
+    transition: 0.5s;
+}
