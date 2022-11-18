@@ -1,0 +1,21 @@
+.top_header_col{
+border: 1px solid red;
+}
+.top_header_link{
+    display: flex;
+    margin: 0px 100px;
+}
+.top_header__link_icon{
+    width: 20%;
+    font-size: 35px;
+    color: blueviolet;
+}
+.top_header__link_info{
+    width: 80%;
+}
+.top_header__link_info h4{
+    margin: 0;
+}
+.app{
+    height: 3000vh;
+}
