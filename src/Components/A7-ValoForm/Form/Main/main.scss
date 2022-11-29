@@ -1,0 +1,75 @@
+h2{
+    margin-bottom: 30px;
+}
+
+.signIn_section .inner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin: 15px 0;
+}
+.signIn_section label{
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #ada8a8;
+    position: absolute;
+    top: 20px;
+    left: 70px;
+}
+.signIn_section input{
+    background-color: #ada8a83b;
+    border: none;
+    width: 270px;
+    height: 50px;
+    padding:15px 15px 5px 15px;
+    border-radius: 7px;
+    font-weight: 900;
+}
+.activeInpt{
+    translate: -0px -18px;
+    transition: 0.5s;
+}
+
+.social_acc{
+    width: 270px;
+    height: 50px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+    margin: auto;
+    padding: 10px 0 ;
+}
+.social_acc span{
+    border-radius: 4px;
+    cursor: pointer;
+}
+.logSuggestion{
+    width: 270px;
+    height: 50px;
+    margin: auto;
+    text-align: left;
+    display: flex;
+    line-height: 49px;
+}
+.logSuggestion input{
+    width: 18px;
+   
+}
+.logSuggestion span{
+    margin: 5px;
+    font-weight: 500;
+}
+.fb_acc{
+    background-color: blue;
+    color: white;
+}
+.google_acc{
+    background-color: #f6efefd6;
+    color: blue;
+}
+.apple_acc{
+    background-color: black;
+    color: white;
+}
